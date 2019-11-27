@@ -34,6 +34,6 @@ Code for serial communication was taken from github repository [xanthium-eneterp
 * connect the board. Press the hard reset button on the board. Run the code(choose only single core (core 0)). Each time before running the code, you will have to hard reset the board.
 ## __Debugging__
 * inserting printf statements are the easiest way to debug the code. there are multiple files functions provided in the helloWorld.c code for debugging. In particular, you can switch on the LED blink task by uncommeting the corresponding tasks in the `main()` function in helloWorld.c file. 
-* We used wireshark to debug incoming and outgoing UDP packets. 
+* We used wireshark to debug incoming and outgoing UDP packets. `tcpdump` is a cooler option
 * processImage() function does a sobel operation on a image stored in computer
 * octave/Matlab code for opening the .y images is given with the project
