@@ -42,3 +42,9 @@ Code for serial communication was taken from github repository [xanthium-eneterp
 	* Dont use blocking calls inside tasks
 	* .y files given by TI are simple binary files, you dont need a special software for that you can write a simple c code for binary file manipulation, or use matlab/octave for the same. Octave file is given in this repository. 
 	* check and make sure that you have matching image dimensions everywhere.To avoid redefinition, in most places we use the `extern` keyword in c file.
+
+# Contributors
+* Shubham Singhania 
+* Jinit Patil
+* Krishna Khairnar
+* Aswin P Ajayan
