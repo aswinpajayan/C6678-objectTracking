@@ -3,7 +3,6 @@
 # python ball_tracking.py
 
 # import the necessary packages
-from collections import deque
 import numpy as np
 import argparse
 import cv2
@@ -47,11 +46,10 @@ while True:
     I = cv2.calcHist([DSA_pixel_I],[0], None, [256], [0, 256] )
 
     R = M/I
-    # print R.shape
-    # print R
+ 
     B = R[DSA_pixel_I.ravel()]
     B = np.minimum(B,1)
-    # print hsvt.shape[:2]
+   
     B = B.reshape(hsvt.shape[:2])
     kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (5, 5))
     B = cv2.filter2D(B, -1, kernel)
