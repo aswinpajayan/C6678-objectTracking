@@ -44,7 +44,7 @@ Code for serial communication was taken from github repository [xanthium-eneterp
 	* check and make sure that you have matching image dimensions everywhere.To avoid redefinition, in most places we use the `extern` keyword in c file.
 
 # Contributors
-* Shubham Singhania 
-* Jinit Patil
+* [Shubham Singhania](https://github.com/shub19)
+* [Jinit Patil](https://github.com/jinitpatil)
 * Krishna Khairnar
-* Aswin P Ajayan
+* [Aswin P Ajayan](https://github.com/aswinpajayan)
