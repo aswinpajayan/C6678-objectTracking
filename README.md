@@ -46,5 +46,5 @@ Code for serial communication was taken from github repository [xanthium-eneterp
 # Contributors
 * [Shubham Singhania](https://github.com/shub19)
 * [Jinit Patil](https://github.com/jinitpatil)
-* Krishna Khairnar(https://github.com/krishnajk333)
+* [Krishna Khairnar](https://github.com/krishnajk333)
 * [Aswin P Ajayan](https://github.com/aswinpajayan)
